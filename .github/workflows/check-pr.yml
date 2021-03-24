@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Return error
-        run: echo Test
+        run: echo Test; exit 1
